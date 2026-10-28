@@ -1,5 +1,5 @@
-// Reemplace la URL por la URL pública de su servicio en Render.
-const API_URL = 'https://SU-SERVICIO.onrender.com/api/mensaje';
+// URL pública del backend desplegado en Render.
+const API_URL = 'https://backend-laboratorio-e8sy.onrender.com/api/mensaje';
 
 document.getElementById('consultar').addEventListener('click', async () => {
   const resultado = document.getElementById('resultado');
